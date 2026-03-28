@@ -1,0 +1,35 @@
+# data files
+data/
+*.db
+*.db-wal
+*.db-shm
+
+# env
+.env
+service_account.json
+continual-block-*.json
+*.json.bak
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+*.egg-info/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Analysis temp files
+analyze.py
+analysis_output*.txt
+headers_check.txt
+tunnel_log*.txt
+cleanup_db.py
+
+# Excel data files
+*.xlsx
